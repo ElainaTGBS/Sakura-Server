@@ -1,0 +1,22 @@
+**
+
+APS服务器用户许可协议
+A Potato Server Users License Agreement
+**
+
+A Potato Server，即APS或者APS Server指的是A Potato Server Sakura Administrator Societies（以下简称SKRA）管理的玩家社群和此社群创建的所有网站、服务器等。
+
+本协议适用范围为正在使用A Potato Server任何资源的用户。
+
+本协议的修订权、解释权等均为SKRA所有。
+
+A Potato Server Sakura Administrator Societies，即SKRA为APS的唯一决策和管理的团队，APS中的所有重大的决策和管理均需要SKRA执行或者同意执行。除此之外，没有任何人或组织可以独立地管理APS。
+
+服务器的玩家管理（即封禁、解封等操作）由A Potato Server Player Admin Group（以下简称PAG）负责。PAG由SKRA产生，受到SKRA管理。同时，SKRA拥有PAG的所有权限，也可以驳回PAG的所有决定。
+
+SKRA有权修订关于APS的任何条款并且没有义务通知用户。请随时留意官方的最新动态。包括但不限于QQ群公告、Discord服务器、其他网站官方账户动态等。
+
+SKRA没有义务对其所创建的任何内容进行维护，但是不代表我们不维护，相反，我们很乐意对我们创建的所有东西进行维护，但前提是我们有足够的资源和精力。
+
+A Potato Server Sakura Administrator Societies 2024-3-10
+
