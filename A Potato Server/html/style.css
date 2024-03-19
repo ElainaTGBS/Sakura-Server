@@ -1,0 +1,65 @@
+body,html{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: bold;
+}
+
+/*gpt写的按钮*/
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004ad400;
+    border: 2px solid #000000;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s;
+    min-width: 100px;
+
+    text-align: center;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button:active {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+
+
+
+
+/*返回主页，抄buttom*/
+.ma {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004ad400;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s;
+    min-width: 100px;
+}
+
+.ma:hover {
+    transform: scale(1.1);
+}
+
+.ma:active {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+#server-info{
+    background-color: rgba(255, 255, 255, 0.533);
+    border-radius: 25px 25px 25px 25px;
+}
