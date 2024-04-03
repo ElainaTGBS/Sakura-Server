@@ -1,0 +1,36 @@
+
+
+html{
+    /*字体加粗并变白*/
+    /*background-color: #cccccc;*/
+    font-weight: bold;
+    color: white;
+}
+
+
+/*按钮*/
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004ad400;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s;
+    min-width: 100px;
+
+    text-align: center;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button:active {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
