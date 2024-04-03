@@ -1,0 +1,115 @@
+/*格式化内容*/
+body,html{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: bold;
+}
+
+#had{
+    background-color: rgba(255, 255, 255, 0.37);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+}
+
+#main{
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.644);
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*统一性控件*/
+
+/*gpt写的按钮*/
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004ad400;
+    border: 2px solid #000000;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s;
+    min-width: 100px;
+
+    text-align: center;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button:active {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+
+
+
+
+
+
+/*返回主页，抄buttom*/
+.ma {
+    
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004ad400;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s;
+    min-width: 100px;
+}
+
+.ma:hover {
+    transform: scale(1.1);
+}
+
+.ma:active {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+
+
+#server-info{
+    background-color: rgba(255, 255, 255, 0.533);
+    border-radius: 25px 25px 25px 25px;
+}
+
+
+
+
+
+
+/*小方框，用来列举。原本是档案馆专有的*/
+#pane{
+    color: black;
+    border-radius: 15px;
+
+    border: 2px solid #000000;
+
+    padding: 20px;
+
+    
+    
+    margin-top: 10px;
+}
