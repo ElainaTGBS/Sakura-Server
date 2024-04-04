@@ -1,0 +1,64 @@
+body{
+    font-weight: bold;
+    background-color: #e6e6e6;
+}
+
+
+
+.had{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    text-align: center;
+}
+.had p{
+    font-size: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+}
+
+/* 列表的默认隐藏状态 */
+#hidden-list {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* 鼠标悬停时显示列表 */
+#hover-div:hover #hidden-list {
+    display: block;
+}
+
+
+
+
+
+
+/*按钮*/
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004ad400;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s;
+    min-width: 100px;
+
+    text-align: center;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button:active {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
