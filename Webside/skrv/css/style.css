@@ -1,34 +1,69 @@
+/* 设置页面整体样式 */
 body{
-    font-weight: bold;
-    background-color: #e6e6e6;
+    font-weight: bold; /* 设置字体加粗 */
+    background-color: #e6e6e6; /* 设置背景颜色为 #e6e6e6 */
 }
 
-
-
+/* 设置顶部导航栏样式 */
 .had{
-    background-color: rgb(255, 255, 255);
-    height: 70px;
-    text-align: center;
-}
-.had p{
-    font-size: 30px;
-    margin-left: 2%;
-    margin-right: 2%;
-    float: left;
+    background-color: rgb(255, 255, 255); /* 设置背景颜色为白色 */
+    height: 50px; /* 设置高度为70px */
+    text-align: center; /* 文本居中对齐 */
+    display: flex; /* 使用 Flexbox 布局 */
+    justify-content: center; /* 水平居中对齐 */
 }
 
-/* 列表的默认隐藏状态 */
+/* 设置悬停时显示的隐藏列表样式 */
+#hover-div{
+    font-size: 20px; /* 设置字体大小为30px */
+    margin-left: 2%; /* 左边距为2% */
+    margin-right: 2%; /* 右边距为2% */
+    align-items: center; /* 垂直居中 */
+    display: flex;
+    text-decoration: none; /* 取消下划线 */
+    color: black;/*字体调黑*/
+}
+
+
+
+/* 设置列表的默认隐藏状态样式 */
 #hidden-list {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 10px;
+    padding-top: 15px; /* 上边距为15px */
+    padding-bottom: 15px; /* 下边距为15px */
+    padding-left: 10px; /* 左边距为10px */
+    padding-right: 10px; /* 右边距为10px */
+    font-size: large; /* 设置字体大小为large */
+    position: fixed; /* 使用固定定位 */
+    z-index: 9999; /* 设置 z-index 为 9999，使其位于最上层 */
+    opacity: 0; /* 设置透明度为0 */
+    transition: opacity 0.2s; /* 添加过渡效果，过渡时间为0.2秒 */
 }
+#hidden-list ul, ol {
+    list-style-type: none; /* 取消列表项的默认符号 */
+}
+#hidden-list ul a{
+    color: black;
+    text-decoration: none; /* 取消下划线 */
+}
+  
 
-/* 鼠标悬停时显示列表 */
+
+/* 设置鼠标悬停时显示列表的样式 */
 #hover-div:hover #hidden-list {
-    display: block;
+    display: block; /* 显示列表 */
+    background-color: rgb(255, 255, 255); /* 设置背景颜色为白 */
+    opacity: 1; /* 设置透明度为1 */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); /* 添加阴影效��� */
+}
+
+
+
+/*设置普通块的样式*/
+body .content{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 
@@ -36,29 +71,57 @@ body{
 
 
 
-/*按钮*/
+/* 设置按钮样式 */
 .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #004ad400;
-    border: 2px solid #ffffff;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    cursor: pointer;
-    transition: transform 0.3s;
-    min-width: 100px;
-
-    text-align: center;
+    display: inline-block; /* 设置为内联块元素 */
+    padding: 10px 20px; /* 设置内边距 */
+    background-color: #004ad400; /* 设置背景颜色为 #004ad400 */
+    border: 2px solid #ffffff; /* 设置边框为2px宽的白色边框 */
+    color: #ffffff; /* 设置文字颜色为白色 */
+    text-decoration: none; /* 去除文字下划线 */
+    border-radius: 4px; /* 设置边框圆角为4px */
+    font-size: 16px; /* 设置字体大小为16px */
+    font-family: Arial, sans-serif; /* 设置字体为 Arial 或 sans-serif */
+    cursor: pointer; /* 设置鼠标样式为手型 */
+    transition: transform 0.3s; /* 添加过渡效果，过渡时间为0.3秒 */
+    min-width: 100px; /* 设置最小宽度为100px */
+    text-align: center; /* 文本居中对齐 */
 }
 
+/* 设置按钮悬停时的样式 */
 .button:hover {
-    transform: scale(1.1);
+    transform: scale(1.1); /* 缩放按钮大小为原来的1.1倍 */
 }
 
+/* 设置按钮按下时的样式 */
 .button:active {
-    transform: scale(0.9);
-    transition: transform 0.3s;
+    transform: scale(0.9); /* 缩放按钮大小为原来的0.9倍 */
+    transition: transform 0.3s; /* 添加过渡效果，过渡时间为0.3秒 */
 }
+
+
+
+
+/*关于手机网站和电脑网站的切换css*/
+.computer {
+    display: block;
+
+}
+.phone {
+    display: none;
+
+}
+
+
+
+@media (max-aspect-ratio: 1/1) {
+    .computer {
+        display: none;
+    }
+
+    .phone {
+        display: block;
+    }
+}
+
+
