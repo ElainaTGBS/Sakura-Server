@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>樱花Video工作室</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../favicon.png" type="image/x-icon"/><!--调用网站图标-->
+    <script src="../script.js"></script><!--调用主<js-->
+    <link href="../css/style.css" rel="stylesheet" type="text/css"><!--调用全站统一的css-->
+</head>
+<body>
+    <div id="had">
+        <!-- 这里将显示内容 -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+        // 使用JavaScript加载内容
+        window.onload = function() {
+            fetch('../had.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('had').innerHTML = data;
+            });
+        };
+    </script>
+</body>
+</html>

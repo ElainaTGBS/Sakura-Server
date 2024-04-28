@@ -1,0 +1,100 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>樱花Video工作室</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../favicon.png" type="image/x-icon"/><!--调用网站图标-->
+    <script src="../script.js"></script><!--调用主<js-->
+    <link href="../css/style.css" rel="stylesheet" type="text/css"><!--调用全站统一的css-->
+    <style>
+        .computer #rule{
+            background-color: white;
+
+            width: 36%;
+            margin-top: 30px;
+            
+            
+        }
+
+
+        .phone #rule{
+            background-color: white;
+
+            margin-top: 30px;
+
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="had">
+        <!-- 这里将显示头部 -->
+    </div>
+
+
+
+    <!--电脑网站-->
+    <div class="computer">
+        <div id="rule" class="content">
+            <h1>工作室守则</h1>
+            <div style="margin-left: 30px;">
+                1.你不能泄露未完工的项目的内部文件。<br>
+                2.如果你觉得我们做的不好，请您自觉离开，不要去和我们陷入口水战，那真的很没有意思，更不要在社交网站上诋毁、侮辱我们。<br>
+                3.如果你必须要享受高高在上的感觉，请你自己去建一个群，不要在这里显摆你的b技术。<br>
+                4.我们的很多成员可能是新手，萌新在提问问题的时候，请不要对他指指点点，<b style="color: red;">更严禁提供错误的方法取笑！</b>这并不好笑！<br>
+                5.如果觉得有什么不足，欢迎提交反馈表或者issues，但是不要上来就是出口成*或者疯狂@某人，没有任何人需要对自己的内容负责（法律责任除外），人家爱改不改，
+                和你没有半点关系<br>
+            </div>
+        </div>
+    
+    
+        <div id="joinus" class="content">
+            
+        </div>
+    </div>
+
+
+
+
+
+    <!--手机网站-->
+    <div class="phone">
+        
+
+        <div id="rule" class="content">
+            <h1>工作室守则</h1>
+            <div style="margin-left: 30px;">
+                1.你不能泄露未完工的项目的内部文件。<br>
+                2.如果你觉得我们做的不好，请您自觉离开，不要去和我们陷入口水战，那真的很没有意思，更不要在社交网站上诋毁、侮辱我们。<br>
+                3.如果你必须要享受高高在上的感觉，请你自己去建一个群，不要在这里显摆你的b技术。<br>
+                4.我们的很多成员可能是新手，萌新在提问问题的时候，请不要对他指指点点，<b style="color: red;">更严禁提供错误的方法取笑！</b>这并不好笑！<br>
+                5.如果觉得有什么不足，欢迎提交反馈表或者issues，但是不要上来就是出口成*或者疯狂@某人，没有任何人需要对自己的内容负责（法律责任除外），人家爱改不改，
+                和你没有半点关系<br>
+            </div>
+        </div>
+    
+    
+        <div id="joinus" class="content">
+            
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        // 使用JavaScript加载内容
+        window.onload = function() {
+            fetch('../had.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('had').innerHTML = data;
+
+            });
+        };
+    </script>
+</body>
+</html>

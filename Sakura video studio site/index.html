@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!---->
+
+
+
+
+        <!--本页面是用户进入的第一个页面，会自动重定向到各个国家的社区-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>A Potato Server</title>
+    <script>
+        // 刷新后检测浏览器语言
+        function detectLanguage() {
+            var lang = navigator.language || navigator.userLanguage;
+            console.log("Browser language: " + lang);
+
+            // 根据浏览器语言跳转到相应页面
+            if (lang === "zh-CN" || lang === "zh") {
+                window.location.href = "zh";
+            }
+            else if (lang === "en-US" || lang === "en") {
+                window.location.href = "en";
+            }
+            else if (lang === "ja-JP" || lang === "ja") {
+                window.location.href = "ja";
+            }
+            
+            else {
+                window.location.href = "zh";
+            }
+            
+        }
+
+        // 在页面加载完成后执行检测
+        window.onload = detectLanguage;
+    </script>
+</head>
+<body>
+    <h1>
+        正在获取您的浏览器语言，请稍后。<br>
+        Getting your browser language, please later.<br>
+        ブラウザの言語は後で取得してください。
+    </h1>
+    <br>
+    <p>
+        by:後藤石井<!--後藤石井は製造します-->
+    </p>
+
+    <script>alert("维护中...")</script>
+    <!--网站维护提醒，完成维护后注释掉就可以-->
+</body>
+</html>

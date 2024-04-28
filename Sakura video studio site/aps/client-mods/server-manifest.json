@@ -1,0 +1,18 @@
+{
+  "name": "1.20.2",
+  "author": "后藤石井-sakura video工作室",
+  "version": "1.0",
+  "description": "添加了一些生电辅助模组，但最主要的是会第一时间更新需要安装的客户端模组。",
+  "fileApi": "http://sakuravideo.top/aps/client-mods",
+  "files": [],
+  "addons": [
+    {
+      "id": "game",
+      "version": "1.20.2"
+    },
+    {
+      "id": "fabric",
+      "version": "0.15.10"
+    }
+  ]
+}
